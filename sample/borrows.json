@@ -1,0 +1,16 @@
+{
+  "budget": 1,
+  "capacity": 2,
+  "refill_every": 5,
+  "backwards_error_code": "E_TIME_BACKWARDS",
+  "cost_error_code": "E_BAD_COST",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "tokens": 2, "last_at": 0, "admitted": [], "rejected": [], "next_seq": 1,
+             "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "borrow", "at": 1, "cost": 2 },
+    { "id": 2, "kind": "borrow", "at": 7, "cost": 1 },
+    { "id": 3, "kind": "borrow", "at": 8, "cost": 1 },
+    { "id": 4, "kind": "borrow", "at": 11, "cost": 1 }
+  ]
+}

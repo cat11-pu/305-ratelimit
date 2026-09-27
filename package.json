@@ -1,0 +1,5 @@
+{
+  "name": "ratelimit",
+  "private": true,
+  "type": "module"
+}
